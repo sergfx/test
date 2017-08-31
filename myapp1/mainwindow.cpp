@@ -22,7 +22,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_play_clicked()
 {
     qDebug() << Q_FUNC_INFO;
-    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание музЫки"));
+    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание музыки"));
 }
 
 void MainWindow::on_history_clicked()

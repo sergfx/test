@@ -33,6 +33,7 @@ void MainWindow::on_history_clicked()
 
 void MainWindow::on_exit_clicked()
 {
+    qDebug() << Q_FUNC_INFO;
     close();
 }
 

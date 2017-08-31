@@ -8,6 +8,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->author->setText(tr("Киркоров"));
+    ui->elapsed->setText(tr("100 мин"));
+    ui->bitrate->setText(tr("10 Kbps"));
 }
 
 MainWindow::~MainWindow()
@@ -19,7 +22,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_play_clicked()
 {
     qDebug() << Q_FUNC_INFO;
-    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание музЫки"));
+    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание музыки"));
 }
 
 void MainWindow::on_history_clicked()

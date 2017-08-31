@@ -33,7 +33,7 @@ void MainWindow::on_history_clicked()
 
 void MainWindow::on_exit_clicked()
 {
-    close() ;
+    close();
 }
 
 void MainWindow::on_stop_clicked()

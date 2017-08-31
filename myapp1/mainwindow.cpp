@@ -24,7 +24,8 @@ void MainWindow::on_play_clicked()
 
 void MainWindow::on_history_clicked()
 {
-
+    qDebug() << Q_FUNC_INFO;
+    QMessageBox::information(0,tr("Сообщение"),tr("История"));
 }
 
 void MainWindow::on_exit_clicked()

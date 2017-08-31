@@ -18,6 +18,14 @@ public:
 private slots:
 
 
+    void on_play_clicked();
+
+    void on_history_clicked();
+
+    void on_exit_clicked();
+
+    void on_stop_clicked();
+
 private:
     Ui::MainWindow *ui;
 

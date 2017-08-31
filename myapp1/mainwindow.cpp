@@ -15,3 +15,19 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_play_clicked()
+{
+    qDebug() << Q_FUNC_INFO;
+    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание"));
+}
+
+void MainWindow::on_history_clicked()
+{
+
+}
+
+void MainWindow::on_exit_clicked()
+{
+    close();
+}

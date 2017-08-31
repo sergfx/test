@@ -19,7 +19,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_play_clicked()
 {
     qDebug() << Q_FUNC_INFO;
-    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание"));
+    QMessageBox::information(0,tr("Сообщение"),tr("Проигрывание музЫки"));
 }
 
 void MainWindow::on_history_clicked()
@@ -31,4 +31,10 @@ void MainWindow::on_history_clicked()
 void MainWindow::on_exit_clicked()
 {
     close();
+}
+
+void MainWindow::on_stop_clicked()
+{
+    qDebug() << Q_FUNC_INFO;
+    QMessageBox::information(0,tr("Сообщение"),tr("Стоп"));
 }

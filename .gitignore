@@ -1,0 +1,16 @@
+output/*
+Makefile
+*.Debug
+*.Release
+*.user
+*.o
+*.~*
+*.*~
+moc_*.cpp
+ui_*.cpp
+ui_*.h
+qrc_*.cpp
+qtc_*
+qtc_/*
+*.autosave
+

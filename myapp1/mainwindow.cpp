@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->author->setText(tr("Киркоров"));
+    ui->author->setText(tr("Киркоров Undead"));
     ui->elapsed->setText(tr("100 мин"));
     ui->bitrate->setText(tr("10 Kbps"));
 }

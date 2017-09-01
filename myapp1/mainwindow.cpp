@@ -33,12 +33,13 @@ void MainWindow::on_history_clicked()
 
 void MainWindow::on_exit_clicked()
 {
-    qDebug() << Q_FUNC_INFO << "test" ;
     close();
 }
 
 void MainWindow::on_stop_clicked()
 {
-    qDebug() << Q_FUNC_INFO;
+
+
+    /// test
     QMessageBox::information(0,tr("Сообщение"),tr("Стоп"));
 }
